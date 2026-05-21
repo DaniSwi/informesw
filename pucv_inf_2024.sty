@@ -1,0 +1,135 @@
+% Este es un archivo de estilo LaTeX para informes de la Escuela de Ing. Informática (PUCV)
+% Modificado para incluir tocloft y unificar espaciado de índices
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{pucv_inf_2024}[2024/03/07 Paquete para informes PUCV\_INF]
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{times}
+\usepackage{xcolor}
+\definecolor{titlecolor}{HTML}{4472c4}
+\usepackage{amsmath}
+\usepackage{glossaries}
+
+\usepackage{nomencl}
+\makenomenclature
+
+\usepackage{graphicx}
+\usepackage{etoolbox}
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+\usepackage[style=apa,language=spanish]{biblatex}
+
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+
+\usepackage{enumitem}
+\setlist{itemsep=0pt, topsep=0pt}
+
+\usepackage{caption}
+\captionsetup{font=footnotesize}
+\captionsetup[algorithm]{name=Algoritmo}
+
+
+% --- CONFIGURACIÓN DE TOCLOFT UNIFICADA ---
+\usepackage[titles]{tocloft}
+
+% 1. Espaciado estándar para índices conocidos
+\setlength{\cftbeforechapskip}{10pt}
+\setlength{\cftbeforesecskip}{10pt}
+\setlength{\cftbeforesubsecskip}{10pt}
+\setlength{\cftbeforefigskip}{10pt}
+\setlength{\cftbeforetabskip}{10pt}
+
+% 2. TRUCO DEFINITIVO: Vincular 'algorithm' al estilo de las figuras
+\makeatletter
+% Esto crea las macros \cftbeforealgoskip, \cftalgoindent, etc., 
+% copiando el comportamiento de las figuras (lof)
+\newcommand{\l@algorithm}{\@dottedtocline{1}{1.5em}{2.3em}}
+\makeatother
+
+% Ahora que la macro existe, tocloft nos deja configurarla:
+\newlength{\cftbeforealgoskip}
+\setlength{\cftbeforealgoskip}{10pt}
+
+\makeatletter
+% 3. ELIMINAR LOS SALTOS AUTOMÁTICOS POR CAPÍTULO
+\patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}
+\patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}
+\patchcmd{\@chapter}{\addtocontents{loa}{\protect\addvspace{10\p@}}}{}{}{}
+
+% 4. Redefinir listofalgorithms para que aplique el espaciado correctamente
+\renewcommand{\listofalgorithms}{%
+  \begingroup
+    \chapter*{\listalgorithmname}%
+    \@mkboth{\MakeUppercase\listalgorithmname}{\MakeUppercase\listalgorithmname}%
+    % Esta línea es el secreto: obliga a usar el salto antes de cada entrada
+    \addtocontents{loa}{\protect\setlength{\parskip}{10pt}}
+    \@starttoc{loa}%
+  \endgroup
+}
+\makeatother
+% --------------------------------------------
+
+\addto\captionsspanish{%
+  \renewcommand{\tablename}{Tabla}%
+  \renewcommand{\nomname}{\uppercase{Lista de Símbolos}}
+  \renewcommand{\contentsname}{\uppercase{Índice General}}
+  \renewcommand{\listfigurename}{\uppercase{Lista de Figuras}}
+  \renewcommand{\listtablename}{\uppercase{Lista de Tablas}}
+  \renewcommand{\listalgorithmname}{\uppercase{Lista de Algoritmos}}
+  \renewcommand{\glossaryname}{Glosario}
+}
+
+% Configuración de la numeración de los algoritmos por capítulo
+% Usamos chngcntr que es más estable en versiones actuales
+\usepackage{chngcntr}
+\counterwithin{algorithm}{chapter} 
+
+% Esto redefine la apariencia a "Capítulo.Número"
+\renewcommand{\thealgorithm}{\thechapter.\arabic{algorithm}}
+
+% Configuración de encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+
+\fancypagestyle{plain}{%
+    \fancyhf{}
+    \fancyfoot[R]{\thepage}
+}
+
+\renewcommand{\headrulewidth}{0pt}
+\pagenumbering{roman}
+
+% Configuración de los títulos de secciones
+\titleformat{\chapter}[block]{\normalfont\bfseries\Large}{\thechapter.}{0.5em}{\MakeUppercase}
+\titlespacing*{\chapter}{0cm}{5pt}{0pt}
+
+\titleformat{\section}[block]{\normalfont\bfseries\large}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0cm}{5pt}{0pt}
+
+\titleformat{\subsection}[block]{\normalfont\bfseries\normalsize}{\thesubsection.}{0.5em}{}
+\titlespacing*{\subsection}{0cm}{5pt}{0pt}
+
+\titleformat{\subsubsection}[block]{\normalfont\bfseries\normalsize}{\thesubsubsection.}{0.5em}{}
+\titlespacing*{\subsubsection}{0cm}{5pt}{0pt}
+
+% Configuración de párrafos
+\setlength{\parindent}{1cm}
+\renewcommand{\baselinestretch}{1}
+\setlength{\parskip}{10pt}
+
+% Extra
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{0pt}
+
+\widowpenalty=10000
+\clubpenalty=10000

@@ -1,0 +1,56 @@
+\documentclass[12pt, letterpaper]{report} % Usa la clase report para documentos divididos en capítulos
+
+%Paquete que da el formato al documento
+\usepackage{pucv_inf_2024}
+
+% Archivo de Referencias
+\addbibresource{referencias.bib}
+
+% Glosario
+\loadglsentries{glosario}
+\makeglossaries
+
+\begin{document}
+
+%% TEX CON PORTADA DEL INFORME
+% Portada para informes en asignaturas
+\include{Portadas/portada_principal.tex}
+
+%% DEDICATORIA (incluir solo en TFT y TFG, sino comentar)
+% \include{Dedicatoria/dedicatoria.tex}
+
+%% RESUMEN/ABSTRACT DEL INFORME
+% \include{Resumen/resumen.tex}
+
+%% INDICE, LISTAS de FIGURAS/TABLAS/ALGORITMOS, GLOSARIO, ETC.
+%% COMENTAR EN CASO DE NO QUERER INCLUIR ALGUNA DE ESTAS LISTAS/INDICES
+\newpage\addcontentsline{toc}{chapter}{Índice General}
+\tableofcontents % Este comando genera el índice
+
+\newpage\addcontentsline{toc}{chapter}{Lista de Figuras}
+\listoffigures % Índice de figuras
+
+\newpage\addcontentsline{toc}{chapter}{Lista de Tablas}
+\listoftables  % Índice de tablas
+
+% \newpage\addcontentsline{toc}{chapter}{Lista de Algoritmos\vspace{-0.5cm}}
+% \listofalgorithms 
+
+% Lista de Símbolos
+% \include{simbolos.tex}
+% \newpage\addcontentsline{toc}{chapter}{Lista de Símbolos\vspace{-0.5cm}}
+% \printnomenclature
+
+% Imprimir Glosario
+% \newpage\addcontentsline{toc}{chapter}{Glosario}
+% \printglossary[type=\acronymtype]
+
+\newpage
+\pagenumbering{arabic} % Cambia a numeración arábiga para el resto del documento
+
+% CONTENIDO PRINCIPAL DEL DOCUMENTO
+\include{Secciones/Introducción}
+
+\printbibliography[title={Referencias}]
+
+\end{document}

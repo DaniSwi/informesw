@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Índice General}{\es@scroman {i}}{}%
+\contentsline {chapter}{Lista de Figuras}{\es@scroman {ii}}{}%
+\contentsline {chapter}{Lista de Tablas}{\es@scroman {iii}}{}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{}%

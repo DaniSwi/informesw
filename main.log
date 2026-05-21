@@ -1,0 +1,1196 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  20 MAY 2026 21:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (pucv_inf_2024.sty
+Package: pucv_inf_2024 2024/03/07 Paquete para informes PUCV\_INF
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.
+sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.s
+ty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.st
+y
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.cfg))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhd
+r.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks19
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlese
+c.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen157
+\ttl@minus=\dimen158
+\ttl@toksa=\toks20
+\titlewidth=\dimen159
+\titlewidthlast=\dimen160
+\titlewidthfirst=\dimen161
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algor
+ithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count287
+\float@exts=\toks21
+\float@box=\box54
+\@float@everytoks=\toks22
+\@floatcapt=\box55
+) (C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.st
+y
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count288
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\alg
+pseudocode.sty
+Package: algpseudocode 
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\alg
+orithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count289
+\c@ALG@rem=\count290
+\c@ALG@nested=\count291
+\ALG@tlm=\skip67
+\ALG@thistlm=\skip68
+\c@ALG@Lnr=\count292
+\c@ALG@blocknr=\count293
+\c@ALG@storecount=\count294
+\c@ALG@tmpcounter=\count295
+\ALG@tmplength=\skip69
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.st
+y
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\col
+or.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdf
+tex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcol
+or.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.
+sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip70
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.
+sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.s
+ty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen162
+))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.s
+ty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen163
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.s
+ty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count296
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count297
+\leftroot@=\count298
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count299
+\DOTSCASE@=\count300
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen164
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count301
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count302
+\dotsspace@=\muskip17
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
+\tag@help=\toks25
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
+\andhelp@=\toks26
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks27
+\multlinegap=\skip71
+\multlinetaggap=\skip72
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\
+glossaries.sty
+Package: glossaries 2026/04/21 v5.1 (NLCT)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.
+sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyva
+l.tex
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvuti
+ls.tex
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
+)
+\XKV@depth=\count308
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstu
+c.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbo
+x.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count309
+)
+\@glsmfirst=\toks31
+\@glsmrest=\toks32
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatoo
+l-base.sty
+Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\trackl
+ang.sty
+Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\trac
+klang.tex))
+\l__datatool_tmpa_int=\count310
+\l__datatool_tmpb_int=\count311
+\l__datatool_tmpc_int=\count312
+\l__datatool_tmpd_int=\count313
+\l__datatool_count_int=\count314
+\l__datatool_tmp_datatype_int=\count315
+\l__datatool_tmpa_dim=\dimen171
+\l__datatool_tmpb_dim=\dimen172
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatoo
+l-l3fp.def
+File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@toks=\toks33
+\@dtl@tmpcount=\count316
+\dtl@tmplength=\skip73
+\l__datatool_measure_box=\box58
+\dtl@sortresult=\count317
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatoo
+l-utf8.ldf
+File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@datatype=\count318
+\c_datatool_unknown_int=\count319
+\l__datatool_year_int=\count320
+\l__datatool_month_int=\count321
+\l__datatool_day_int=\count322
+\l__datatool_hour_int=\count323
+\l__datatool_minute_int=\count324
+\l__datatool_second_int=\count325
+\l__datatool_tzhour_int=\count326
+\l__datatool_tzminute_int=\count327
+\l__datatool_julian_int=\count328
+\l__datatool_local_julian_int=\count329
+\l__datatool_prefix_int=\count330
+\l__datatool_suffix_int=\count331
+\@dtl@foreach@level=\count332
+\dtl@codeA=\count333
+\dtl@codeB=\count334
+)
+\gls@level=\count335
+\@gls@tmpb=\toks34
+\gls@tmplen=\skip74
+\l__glossaries_tmpa_dim=\dimen173
+\l__glossaries_tmpb_dim=\dimen174
+\glskeylisttok=\toks35
+\glslabeltok=\toks36
+\glsshorttok=\toks37
+\glslongtok=\toks38
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/style
+s\glossary-hypernav.sty
+Package: glossary-hypernav 2026/04/21 v5.1 (NLCT)
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/style
+s\glossary-list.sty
+Package: glossary-list 2026/04/21 v5.1 (NLCT)
+\glslistdottedwidth=\skip75
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/style
+s\glossary-long.sty
+Package: glossary-long 2026/04/21 v5.1 (NLCT)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.
+sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip76
+\LTright=\skip77
+\LTpre=\skip78
+\LTpost=\skip79
+\LTchunksize=\count336
+\LTcapwidth=\dimen175
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count337
+\LT@rows=\count338
+\c@LT@tables=\count339
+\c@LT@chunks=\count340
+\LT@p@ftn=\toks39
+)
+\glsdescwidth=\skip80
+\glspagelistwidth=\skip81
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/style
+s\glossary-super.sty
+Package: glossary-super 2026/04/21 v5.1 (NLCT)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\sup
+ertabular.sty
+Package: supertabular 2025/06/26 v4.2d the supertabular environment
+\c@tracingst=\count341
+\ST@wd=\dimen176
+\ST@rightskip=\skip82
+\ST@leftskip=\skip83
+\ST@parfillskip=\skip84
+\ST@pageleft=\dimen177
+\ST@headht=\dimen178
+\ST@tailht=\dimen179
+\ST@pagesofar=\dimen180
+\ST@pboxht=\dimen181
+\ST@rowht=\dimen182
+\ST@prevht=\dimen183
+\ST@toadd=\dimen184
+\ST@dimen=\dimen185
+\ST@pbox=\box64
+))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/style
+s\glossary-tree.sty
+Package: glossary-tree 2026/04/21 v5.1 (NLCT)
+\l__glossaries_tree_max_known_level_int=\count342
+\l__glossaries_tree_offset_dim=\dimen186
+\l__glossaries_tree_namewidth_dim=\dimen187
+\l__glossaries_tree_symbolwidth_dim=\dimen188
+\l__glossaries_tree_prenamesym_width_dim=\dimen189
+\l__glossaries_tree_presubnamesym_width_dim=\dimen190
+\l__glossaries_tree_namewidth_padding_dim=\dimen191
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen192
+\l__glossaries_tree_namesymbolwidth_dim=\dimen193
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen194
+\l__glossaries_tree_level_int=\count343
+\glstreeindent=\skip85
+))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.
+sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocb
+asic.sty
+Package: tocbasic 2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrb
+ase.sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrl
+file.sty
+Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrl
+file-hook.sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
+s)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrl
+ogo.sty
+Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+)
+\scr@dte@tocline@numberwidth=\skip86
+\scr@dte@tocline@numbox=\box65
+)
+Package tocbasic Info: omitting babel extension for `nlo'
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: omitting babel extension for `nls'
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen195
+\nom@tempdim=\dimen196
+\nomitemsep=\skip87
+)
+\@nomenclaturefile=\write3
+\openout3 = `main.nlo'.
+
+Package nomencl Info: Writing nomenclature file main.nlo on input line 20.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphic
+x.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphic
+s.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.st
+y
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\gra
+phics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen197
+\Gin@req@width=\dimen198
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.st
+y
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count344
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2101.
+\U@D=\dimen199
+\l@unhyphenated=\language79
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel
+.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count345
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cf
+g
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/e
+s\babel-spanish.tex)
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 4320.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\sp
+anish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks40
+\es@quotdepth=\count346
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
+on input line 25.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
+ on input line 25.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquote
+s.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count347
+\csq@gtype=\count348
+\csq@glevel=\count349
+\csq@qlevel=\count350
+\csq@maxlvl=\count351
+\csq@tshold=\count352
+\csq@ltx@everypar=\toks41
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquote
+s.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquote
+s.cfg
+File: csquotes.cfg 
+))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
+x.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdf
+texcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infw
+arerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmd
+s.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvopti
+ons.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetk
+eys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.st
+y
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count353
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.de
+f
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count354
+\c@listtotal=\count355
+\c@listcount=\count356
+\c@liststart=\count357
+\c@liststop=\count358
+\c@citecount=\count359
+\c@citetotal=\count360
+\c@multicitecount=\count361
+\c@multicitetotal=\count362
+\c@instcount=\count363
+\c@maxnames=\count364
+\c@minnames=\count365
+\c@maxitems=\count366
+\c@minitems=\count367
+\c@citecounter=\count368
+\c@maxcitecounter=\count369
+\c@savedcitecounter=\count370
+\c@uniquelist=\count371
+\c@uniquename=\count372
+\c@refsection=\count373
+\c@refsegment=\count374
+\c@maxextratitle=\count375
+\c@maxextratitleyear=\count376
+\c@maxextraname=\count377
+\c@maxextradate=\count378
+\c@maxextraalpha=\count379
+\c@abbrvpenalty=\count380
+\c@highnamepenalty=\count381
+\c@lownamepenalty=\count382
+\c@maxparens=\count383
+\c@parenlevel=\count384
+\blx@tempcnta=\count385
+\blx@tempcntb=\count386
+\blx@tempcntc=\count387
+\c@blx@maxsection=\count388
+\blx@maxsegment@0=\count389
+\blx@notetype=\count390
+\blx@parenlevel@text=\count391
+\blx@parenlevel@foot=\count392
+\blx@sectionciteorder@0=\count393
+\blx@sectionciteorderinternal@0=\count394
+\blx@entrysetcounter=\count395
+\blx@biblioinstance=\count396
+\labelnumberwidth=\skip88
+\labelalphawidth=\skip89
+\biblabelsep=\skip90
+\bibitemsep=\skip91
+\bibnamesep=\skip92
+\bibinitsep=\skip93
+\bibparsep=\skip94
+\bibhang=\skip95
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language80
+\c@mincomprange=\count397
+\c@maxcomprange=\count398
+\c@mincompwidth=\count399
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.
+def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa
+.dbx
+File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count400
+\c@savedafterword=\count401
+\c@annotator=\count402
+\c@savedannotator=\count403
+\c@author=\count404
+\c@savedauthor=\count405
+\c@bookauthor=\count406
+\c@savedbookauthor=\count407
+\c@commentator=\count408
+\c@savedcommentator=\count409
+\c@editor=\count410
+\c@savededitor=\count411
+\c@editora=\count412
+\c@savededitora=\count413
+\c@editorb=\count414
+\c@savededitorb=\count415
+\c@editorc=\count416
+\c@savededitorc=\count417
+\c@foreword=\count418
+\c@savedforeword=\count419
+\c@holder=\count420
+\c@savedholder=\count421
+\c@introduction=\count422
+\c@savedintroduction=\count423
+\c@namea=\count424
+\c@savednamea=\count425
+\c@nameb=\count426
+\c@savednameb=\count427
+\c@namec=\count428
+\c@savednamec=\count429
+\c@translator=\count430
+\c@savedtranslator=\count431
+\c@shortauthor=\count432
+\c@savedshortauthor=\count433
+\c@shorteditor=\count434
+\c@savedshorteditor=\count435
+\c@narrator=\count436
+\c@savednarrator=\count437
+\c@execproducer=\count438
+\c@savedexecproducer=\count439
+\c@execdirector=\count440
+\c@savedexecdirector=\count441
+\c@with=\count442
+\c@savedwith=\count443
+\c@labelname=\count444
+\c@savedlabelname=\count445
+\c@institution=\count446
+\c@savedinstitution=\count447
+\c@lista=\count448
+\c@savedlista=\count449
+\c@listb=\count450
+\c@savedlistb=\count451
+\c@listc=\count452
+\c@savedlistc=\count453
+\c@listd=\count454
+\c@savedlistd=\count455
+\c@liste=\count456
+\c@savedliste=\count457
+\c@listf=\count458
+\c@savedlistf=\count459
+\c@location=\count460
+\c@savedlocation=\count461
+\c@organization=\count462
+\c@savedorganization=\count463
+\c@origlocation=\count464
+\c@savedoriglocation=\count465
+\c@origpublisher=\count466
+\c@savedorigpublisher=\count467
+\c@publisher=\count468
+\c@savedpublisher=\count469
+\c@language=\count470
+\c@savedlanguage=\count471
+\c@origlanguage=\count472
+\c@savedoriglanguage=\count473
+\c@citation=\count474
+\c@savedcitation=\count475
+\c@pageref=\count476
+\c@savedpageref=\count477
+\shorthandwidth=\skip96
+\shortjournalwidth=\skip97
+\shortserieswidth=\skip98
+\shorttitlewidth=\skip99
+\shortauthorwidth=\skip100
+\shorteditorwidth=\skip101
+\locallabelnumberwidth=\skip102
+\locallabelalphawidth=\skip103
+\localshorthandwidth=\skip104
+\localshortjournalwidth=\skip105
+\localshortserieswidth=\skip106
+\localshorttitlewidth=\skip107
+\localshortauthorwidth=\skip108
+\localshorteditorwidth=\skip109
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-com
+pat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
+x.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count478
+\c@textcitetotal=\count479
+\c@textcitemaxnames=\count480
+\c@biburlbigbreakpenalty=\count481
+\c@biburlbreakpenalty=\count482
+\c@biburlnumpenalty=\count483
+\c@biburlucpenalty=\count484
+\c@biburllcpenalty=\count485
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count486
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa
+.bbx
+File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\sta
+ndard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count487
+\c@bbx:relatedtotal=\count488
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa
+.cbx
+File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
+x.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.s
+ty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3back
+end-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count489
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-12-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-cas
+e-expl3.sty
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xpars
+e\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen256
+\ar@mcellbox=\box66
+\extrarowheight=\dimen257
+\NC@list=\toks42
+\extratabsurround=\skip110
+\backup@length=\skip111
+\ar@cellbox=\box67
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumite
+m.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip112
+\enit@outerparindent=\dimen258
+\enit@toks=\toks43
+\enit@inbox=\box68
+\enit@count@id=\count490
+\enitdp@description=\count491
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.
+sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3
+.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen259
+\captionmargin=\dimen260
+\caption@leftmargin=\dimen261
+\caption@rightmargin=\dimen262
+\caption@width=\dimen263
+\caption@indent=\dimen264
+\caption@parindent=\dimen265
+\caption@hangindent=\dimen266
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count492
+\c@continuedfloat=\count493
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaptio
+n.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.
+sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip113
+\cftbeforetoctitleskip=\skip114
+\cftaftertoctitleskip=\skip115
+\cftbeforepartskip=\skip116
+\cftpartnumwidth=\skip117
+\cftpartindent=\skip118
+\cftbeforechapskip=\skip119
+\cftchapindent=\skip120
+\cftchapnumwidth=\skip121
+\cftbeforesecskip=\skip122
+\cftsecindent=\skip123
+\cftsecnumwidth=\skip124
+\cftbeforesubsecskip=\skip125
+\cftsubsecindent=\skip126
+\cftsubsecnumwidth=\skip127
+\cftbeforesubsubsecskip=\skip128
+\cftsubsubsecindent=\skip129
+\cftsubsubsecnumwidth=\skip130
+\cftbeforeparaskip=\skip131
+\cftparaindent=\skip132
+\cftparanumwidth=\skip133
+\cftbeforesubparaskip=\skip134
+\cftsubparaindent=\skip135
+\cftsubparanumwidth=\skip136
+\cftbeforeloftitleskip=\skip137
+\cftafterloftitleskip=\skip138
+\cftbeforefigskip=\skip139
+\cftfigindent=\skip140
+\cftfignumwidth=\skip141
+\c@lofdepth=\count494
+\c@lotdepth=\count495
+\cftbeforelottitleskip=\skip142
+\cftafterlottitleskip=\skip143
+\cftbeforetabskip=\skip144
+\cfttabindent=\skip145
+\cfttabnumwidth=\skip146
+)
+\cftbeforealgoskip=\skip147
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcnt
+r.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)) (glosario.tex)
+\glswrite=\write5
+\glo@main@file=\write6
+\openout6 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 11.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'spanish'.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13
+.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) (main.aux (Portadas/portada_principal.aux)
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 18.
+ (Secciones/Introducción.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp
+-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count496
+\scratchdimen=\dimen267
+\scratchbox=\box69
+\nofMPsegments=\count497
+\nofMParguments=\count498
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count499
+\MPscratchDim=\dimen268
+\MPnumerator=\count500
+\makeMPintoPDFobject=\count501
+\everyMPtoPDFconversion=\toks45
+)
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\eps
+topdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopd
+f-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
+Package biblatex Info: ... file 'spanish-apa.lbx' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\spa
+nish-apa.lbx
+File: spanish-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spa
+nish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spa
+nish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 13.
+Package biblatex Info: Reference segment=0 on input line 13.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\openout2 = `Portadas/portada_principal.aux'.
+
+(Portadas/portada_principal.tex
+<Portadas/imagenes/encabezado.png, id=1, 895.09406pt x 237.13594pt>
+File: Portadas/imagenes/encabezado.png Graphic file (type png)
+<use Portadas/imagenes/encabezado.png>
+Package pdftex.def Info: Portadas/imagenes/encabezado.png  used on input line 1
+9.
+(pdftex.def)             Requested size: 620.27016pt x 164.32954pt.
+ [0
+
+\openout5 = `main.ist'.
+
+
+{C:/Users/PC RST GALAX/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Use
+rs/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./P
+ortadas/imagenes/encabezado.png>]) (main.toc
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+[1
+
+
+
+] (main.lof
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+ [2
+
+] (main.lot
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+ [3
+
+]
+\openout2 = `Secciones/Introducción.aux'.
+
+ (Secciones/Introducción.tex
+Cap\'{\i }tulo 1.
+) [1
+
+
+]
+
+LaTeX Warning: Empty bibliography on input line 54.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+(main.aux (Portadas/portada_principal.aux)
+LaTeX Info: Redefining \sptext on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+ (Secciones/Introducción.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 25453 strings out of 467871
+ 509502 string characters out of 5414953
+ 1549703 words of memory out of 5000000
+ 54026 multiletter control sequences out of 15000+600000
+ 664909 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,11n,131p,2475b,2901s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
+mb8a.pfb><C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmr8a.pfb>
+Output written on main.pdf (5 pages, 90066 bytes).
+PDF statistics:
+ 30 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
