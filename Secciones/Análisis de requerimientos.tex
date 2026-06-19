@@ -1,0 +1,69 @@
+\chapter{Análisis de requerimientos}
+\label{Análisis}
+
+ \section{Descripción del caso de estudio}
+ 
+ El caso de estudio consiste en el diseño y desarrollo de una plataforma tecnológica que conecta de manera eficiente a clientes que necesiten realizar traslados de cargas menores, objetos o muebles, con transportistas que ofrecen sus servicios de flete. La propuesta se inspira en un modelo colaborativo, buscando resolver la falta de transparencia, precios claros y confianza en el rubro.
+ 
+ Para garantizar la seguridad, el sistema cuenta con un mecanismo de verificación visual que obliga al registro fotográfico del estado de la carga al inicio y al final del trayecto, minimizando disputas por daño. El modelo de negocio se sustenta en una comisión porcentual que la plataforma retiene por cada viaje completado.
+ 
+ \section{Requerimientos de usuario}
+ 
+ Los requerimientos de usuario describen lo que los diferentes actores esperan lograr al interactuar con el sistema.
+ 
+ \noindent \textbf{Cliente}
+ 
+ \begin{itemize}
+ 	\item Necesita cotizar y contratar fletes de forma rápida, conociendo los precios de antemano.
+ 	\item Requiere visibilidad sobre la calificación del conductor y las características de su vehículo.
+ 	\item Desea saber en tiempo real dónde se encuentra su carga durante el viaje.
+ \end{itemize}
+ 
+ \noindent \textbf{Transportista/Flete}
+ 
+ \begin{itemize}
+ 	\item Necesita una herramienta o aplicación que le permita recibir solicitudes de trabajo cercanas.
+ 	\item Requiere definir sus propias tarifas según la distancia y el esfuerzo requerido.
+ 	\item Necesita un respaldo digital que demuestre que entregó la carga en el mismo estado en que la recibió.
+ \end{itemize}
+ 
+ \noindent \textbf{Administrador}
+ 
+ \begin{itemize}
+ 	\item Necesita herramientas eficaces para validar documentación legal de conductores y vehículos antes de habilitarlos.
+ 	\item Requiere un panel para resolver dudas, gestionar reportes de usuario y visualizar las métricas financieras del negocio.
+ \end{itemize}
+ 
+ \section{Requerimientos funcionales}
+ 
+ \begin{enumerate}
+ 	\item \textbf{Registro y perfiles}: El sistema debe permitir el registro de tres tipos de usuarios: Cliente, Transportista y Administrador, cada uno con campos de información específicos.
+ 	\item \textbf{Verificación de documentación}: El sistema debe permitir a los transportistas subir documentos para posteriormente validarlos y recibir la aprobación por parte del Administrador.
+ 	\item \textbf{Creación de solicitud de traslado}: El sistema debe permitir al Cliente ingresar el origen, destino, tipo de carga, dimensiones, peso aproximado, fecha y hora del servicio.
+ 	\item \textbf{Motor de búsqueda y comparación}: El sistema debe mostrar al Cliente una lista de transportistas disponibles cercanos, calificación, tipo de vehículo y tiempo de llegada estimado.
+ 	\item \textbf{Tarifa flexible}: El sistema debe permitir al Transportista configurar y calcular sus tarifas en base a la distancia y las características del traslado.
+ 	\item \textbf{Registro fotográfico de origen}: El sistema debe obligar al Transportista a tomar y subir fotografías de la carga a la aplicación antes de iniciar el viaje.
+ 	\item \textbf{Registro fotográfico de destino}: El sistema debe obligar al Transportista a tomar y subir fotografías de la carga al momento de la entrega en el destino.
+ 	\item \textbf{Almacenamiento de evidencia}: El sistema debe asociar las fotografías tomadas en el origen y destino al historial del servicio correspondiente como respaldo ante posibles reclamos.
+ 	\item \textbf{Seguimiento en tiempo real mediante GPS}: El sistema debe rastrear la ubicación del Transportista mediante el GPS del dispositivo móvil y mostrarla en un mapa al Cliente durante el servicio.
+ 	\item \textbf{Chat interno}: El sistema debe proveer un canal de mensajería interno entre el Cliente y el Transportista asignado mientras el servicio esté activo.
+ 	\item \textbf{Notificaciones SMS}: El sistema debe enviar alertas automáticas en tiempo real al Cliente sobre cambios de estado del viaje.
+ 	\item \textbf{Gestión de pagos}: El sistema debe procesar pagos integrados y permitir la opción de pago en efectivo.
+ 	\item \textbf{Gestión de comisiones}: El sistema debe descontar de forma automática la comisión porcentual preestablecida de la plataforma por cada viaje pagado.
+ 	\item \textbf{Calificaciones y reseñas}: El sistema debe permitir al Cliente calificar y dejar comentarios sobre el desempeño del Transportista una vez finalizado el traslado.
+ 	\item \textbf{Panel de control administrativo}: El sistema debe proveer al Administrador una interfaz web para bloquear o desbloquear usuarios, gestionar reportes y ver métricas.
+ 	\item \textbf{Historial de servicios}: El sistema debe mantener un registro accesible para clientes y transportistas con el detalle de todos sus viajes, recibos y estados.
+ \end{enumerate}
+ 
+ \section{Requerimientos no funcionales}
+ 
+ Los requerimientos no funcionales definen las restricciones de calidad, rendimiento y propiedades del entorno del software.
+ 
+ \begin{enumerate}
+ 	\item \textbf{Seguridad de la información}: Todas las comunicaciones y datos sensibles deben estar encriptados.
+ 	\item \textbf{Disponibilidad}: El sistema y la base de datos deben garantizar una disponibilidad 24/7, minimizando las caídas imprevistas de la aplicación móvil.
+ 	\item \textbf{Rendimiento y tiempo de respuesta}: Las consultas a los GPS de transportistas cercanos y la actualización del mapa en tiempo real no deben demorar más de 2,67 segundos en refrescarse.
+ 	\item \textbf{Usabilidad UX/UI}: Las interfaces móviles deben ser intuitivas y responsivas, diseñadas para que un usuario común pueda solicitar un flete en pocos pasos.
+ 	\item \textbf{Escalabilidad}: El programa debe ser capaz de soportar un incremento concurrente de usuarios sin degradar la plataforma.
+ 	\item \textbf{Compatibilidad móvil}: La aplicación móvil para clientes y transportistas debe ser compatible con Android e iOS.
+ \end{enumerate}

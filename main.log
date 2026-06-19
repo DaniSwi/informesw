@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  20 MAY 2026 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  18 JUN 2026 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,9 @@ LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 18.
- (Secciones/Introducción.aux))
+ (Secciones/Introducción.aux)
+(Secciones/Análisis de requerimientos.aux)
+(Secciones/Modelado de diagramas de casos de uso.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -1156,8 +1158,34 @@ Cap\'{\i }tulo 1.
 
 
 ]
+\openout2 = `"Secciones/Análisis de requerimientos.aux"'.
 
-LaTeX Warning: Empty bibliography on input line 54.
+ (Secciones/Análisis de requerimientos.tex
+Cap\'{\i }tulo 2.
+[2
+
+
+
+
+] [3]) [4]
+\openout2 = `"Secciones/Modelado de diagramas de casos de uso.aux"'.
+
+ (Secciones/Modelado de diagramas de casos de uso.tex
+Cap\'{\i }tulo 3.
+<Figuras/DiagramaDeCasoGeneralizado.png, id=30, 334.24875pt x 353.82187pt>
+File: Figuras/DiagramaDeCasoGeneralizado.png Graphic file (type png)
+<use Figuras/DiagramaDeCasoGeneralizado.png>
+Package pdftex.def Info: Figuras/DiagramaDeCasoGeneralizado.png  used on input 
+line 10.
+(pdftex.def)             Requested size: 236.01561pt x 249.84396pt.
+) [5
+
+
+
+
+ <./Figuras/DiagramaDeCasoGeneralizado.png>]
+
+LaTeX Warning: Empty bibliography on input line 56.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -1168,7 +1196,9 @@ This document will not have a glossary.
 LaTeX Info: Redefining \sptext on input line 18.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
- (Secciones/Introducción.aux))
+ (Secciones/Introducción.aux)
+(Secciones/Análisis de requerimientos.aux)
+(Secciones/Modelado de diagramas de casos de uso.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1178,19 +1208,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25453 strings out of 467871
- 509502 string characters out of 5414953
- 1549703 words of memory out of 5000000
- 54026 multiletter control sequences out of 15000+600000
- 664909 words of font info for 71 fonts, out of 8000000 for 9000
+ 25534 strings out of 467871
+ 513382 string characters out of 5414953
+ 1562419 words of memory out of 5000000
+ 54092 multiletter control sequences out of 15000+600000
+ 667631 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,11n,131p,2475b,2901s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb>
-Output written on main.pdf (5 pages, 90066 bytes).
+Output written on main.pdf (9 pages, 149699 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

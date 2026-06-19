@@ -3,3 +3,10 @@
 \contentsline {chapter}{Lista de Figuras}{\es@scroman {ii}}{}%
 \contentsline {chapter}{Lista de Tablas}{\es@scroman {iii}}{}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{}%
+\contentsline {chapter}{\numberline {2}Análisis de requerimientos}{2}{}%
+\contentsline {section}{\numberline {2.1}Descripción del caso de estudio}{2}{}%
+\contentsline {section}{\numberline {2.2}Requerimientos de usuario}{2}{}%
+\contentsline {section}{\numberline {2.3}Requerimientos funcionales}{2}{}%
+\contentsline {section}{\numberline {2.4}Requerimientos no funcionales}{3}{}%
+\contentsline {chapter}{\numberline {3}Modelado de diagramas de casos de uso}{5}{}%
+\contentsline {section}{\numberline {3.1}Diagrama BPMN}{5}{}%
