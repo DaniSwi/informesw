@@ -24,5 +24,7 @@
 \contentsline {chapter}{\numberline {6}Soporte de software}{23}{}%
 \contentsline {section}{\numberline {6.1}Estrategia de mantenimiento de software}{23}{}%
 \contentsline {section}{\numberline {6.2}Soporte técnico a los usuarios}{24}{}%
-\contentsline {chapter}{\numberline {7}Seguridad y calidad del software}{25}{}%
-\contentsline {section}{\numberline {7.1}Posibles vulnerabilidades}{25}{}%
+\contentsline {section}{\numberline {6.3}Escalabilidad y Adaptabilidad del Sistema}{25}{}%
+\contentsline {chapter}{\numberline {7}Seguridad y calidad del software}{27}{}%
+\contentsline {section}{\numberline {7.1}Posibles vulnerabilidades}{27}{}%
+\contentsline {section}{\numberline {7.2}Pruebas de calidad}{28}{}%

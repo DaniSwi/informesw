@@ -47,3 +47,63 @@ Dada la naturaleza móvil, web y colaborativa de la aplicación, el sistema est�
 	\end{itemize}
 		
 \end{enumerate}
+
+\section{Pruebas de calidad}
+
+Para asegurar que los requerimientos funcionales y de calidad se cumplan sin introducir errores en el ecosistema digital, se establece un enfoque de pruebas en múltiples niveles: 
+
+\begin{enumerate}
+	\item \textbf{Pruebas unitarias (unit tests)} 
+	\begin{itemize}
+		\item \textbf{Objetivo:} Verificar de forma aislada el comportamiento de los componentes mínimos de código, funciones lógicas y clases específicas.
+		\item \textbf{Componentes a evaluar:}
+		\begin{itemize}
+			\item Módulo de cálculo de tarifas flexibles basado en la distancia 
+			\item Función de validación de estructura de tokens JWT 
+			\item Lógica de cálculo del porcentaje de comisión de la plataforma.
+		\end{itemize}
+		\item\textbf{Descripción General de la Prueba:} Mediante el uso de herramientas de testeo automatizado en el entorno de desarrollo, se inyectan valores de entrada simulados (tanto válidos como erróneos o límites) directamente a las funciones del backend y frontend para comprobar de manera aislada que reaccionen exactamente según la lógica programada sin afectar otros módulos. 
+		\item \textbf{Criterio de Aceptación:} El 100\% de las pruebas unitarias clave deben ejecutarse de forma exitosa. Se requiere una cobertura de código mínima del 80\% mediante herramientas de análisis de cobertura automatizadas.
+	\end{itemize}
+	\item\textbf{Pruebas de integración (integration tests)}
+	\begin{itemize}
+		\item \textbf{Objetivo:} Garantizar la correcta comunicación, intercambio de datos y sincronización entre los diferentes módulos del sistema y servicios de terceros.
+		\item \textbf{Componentes a Evaluar:}
+		\begin{itemize}
+			\item Interacción entre la API de la aplicación móvil y la base de datos centralizada al guardar el historial de servicios
+			\item Persistencia de imágenes cargadas por Multer en el servidor de archivos asociado al ID del traslado 
+			\item Flujo de comunicación síncrona en el chat interno mediante WebSockets.
+		\end{itemize}
+		\item \textbf{Descripción general de la prueba:} Se ejecutan llamadas de prueba entre subsistemas combinados para verificar que los datos se transmitan, transformen y almacenen correctamente. Se valida que la información viaje cifrada por canales seguros, que las conexiones concurrentes de mensajería mantengan la sincronización mutua y que la persistencia de archivos de evidencias guarde simultáneamente los registros correspondientes en la base de datos sin romper la integridad referencial. 
+		\item \textbf{Criterio de Aceptación:} Los módulos deben integrarse sin lanzar excepciones de comunicación o inconsistencias en la base de datos. Los tiempos de respuesta de la API en condiciones normales deben situarse por debajo de los 500ms.
+	\end{itemize}
+	\item \textbf{Pruebas de sistema (system tests)}
+	\begin{itemize}
+		\item \textbf{Objetivo:} Evaluar el comportamiento global de la plataforma ejecutando flujos de trabajo completos simulando escenarios reales de uso cotidiano de punta a punta.
+		\item\textbf{Componentes a Evaluar: Ciclo de vida completo de un flete : }
+		\begin{enumerate}
+			\item Cliente solicita flete 
+			\item Transportista recibe alerta e inicia viaje
+			\item Registro fotográfico de origen 
+			\item Seguimiento GPS en ruta 
+			\item Registro fotográfico de destino 
+			\item Pago electrónico y descuento de comisión 
+			\item Calificación final.
+		\end{enumerate}
+		\item \textbf{Descripción General de la Prueba:} Un evaluador de calidad ejecuta el caso de uso principal de la plataforma simulando el comportamiento de los distintos actores de manera secuencial en un entorno de pruebas controlado. Se verifica visual y lógicamente que el flujo de pantallas sea continuo y que cada acción del usuario desencadene el cambio de estado correcto en el sistema global.
+		\item  \textbf{Criterio de Aceptación:} El flujo completo debe ejecutarse sin caídas del sistema ni pérdida de persistencia de datos. No deben existir errores críticos de interfaz que impidan completar la transacción.	
+	\end{itemize}
+	\item\textbf{Pruebas de Rendimiento, Seguridad y Usabilidad}
+	\begin{itemize}
+		\item\textbf{Objetivo:} Evaluar las capacidades y restricciones globales del software bajo escenarios críticos de estrés, verificar la resistencia ante accesos no autorizados y medir la ergonomía y usabilidad de las interfaces móviles y web.
+		\item \textbf{Componentes a Evaluar:} 
+		\begin{itemize}
+			\item Motor de mapas en tiempo real y su tasa de refresco
+			\item Middleware perimetral de control de accesos
+			\item Formularios de autenticación contra inyecciones lógicas 
+			\item Arquitectura de navegación de las interfaces de usuario.
+		\end{itemize}
+		\item \textbf{Descripción general de la prueba:} Descripción General de la Prueba: Se ejecutan de manera simultánea simulaciones automatizadas de carga masiva de peticiones telemétricas para estresar el backend, auditorías de seguridad perimetral intentando forzar peticiones modificando cabeceras de red o omitiendo credenciales, y sesiones de interacción pasiva con usuarios reales ajenos al desarrollo para evaluar los flujos de pantallas.
+		\item \textbf{Criterio de Aceptación:} El sistema debe procesar la geolocalización en un máximo de 2,67 segundos bajo la carga de 1.000 usuarios concurrentes, permitir la contratación del servicio en no más de 4 pasos intuitivos, y rechazar de forma estricta el 100\% de las solicitudes no autenticadas mediante códigos de error HTTP 401 o 403.
+	\end{itemize}
+\end{enumerate}
