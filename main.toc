@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Índice General}{\es@scroman {i}}{}%
-\contentsline {chapter}{Lista de Figuras}{\es@scroman {ii}}{}%
-\contentsline {chapter}{Lista de Tablas}{\es@scroman {iii}}{}%
+\contentsline {chapter}{Lista de Figuras}{\es@scroman {iii}}{}%
+\contentsline {chapter}{Lista de Tablas}{\es@scroman {iv}}{}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{}%
 \contentsline {chapter}{\numberline {2}Análisis de requerimientos}{2}{}%
 \contentsline {section}{\numberline {2.1}Descripción del caso de estudio}{2}{}%
@@ -9,5 +9,20 @@
 \contentsline {section}{\numberline {2.3}Requerimientos funcionales}{2}{}%
 \contentsline {section}{\numberline {2.4}Requerimientos no funcionales}{3}{}%
 \contentsline {chapter}{\numberline {3}Modelado de diagramas de casos de uso}{5}{}%
-\contentsline {section}{\numberline {3.1}Diagrama BPMN}{5}{}%
-\contentsline {section}{\numberline {3.2}Diagrama de caso de uso general}{5}{}%
+\contentsline {section}{\numberline {3.1}Diagrama BPMN}{6}{}%
+\contentsline {section}{\numberline {3.2}Diagrama de caso de uso general}{8}{}%
+\contentsline {chapter}{\numberline {4}Justificación del modelo de desarrollo de software}{19}{}%
+\contentsline {section}{\numberline {4.1}Modelo de desarrollo seleccionado}{19}{}%
+\contentsline {section}{\numberline {4.2}Justificación de la elección}{19}{}%
+\contentsline {section}{\numberline {4.3}Aplicación de Scrum al proyecto}{19}{}%
+\contentsline {section}{\numberline {4.4}Cronograma estimado del proyecto}{20}{}%
+\contentsline {chapter}{\numberline {5}Herramientas CASE a utilizar}{21}{}%
+\contentsline {section}{\numberline {5.1}Herramientas CASE en el contexto del proyecto}{21}{}%
+\contentsline {section}{\numberline {5.2}Herramientas Upper CASE}{21}{}%
+\contentsline {section}{\numberline {5.3}Herramientas Lower CASE}{22}{}%
+\contentsline {section}{\numberline {5.4}Herramientas I-CASE}{22}{}%
+\contentsline {chapter}{\numberline {6}Soporte de software}{23}{}%
+\contentsline {section}{\numberline {6.1}Estrategia de mantenimiento de software}{23}{}%
+\contentsline {section}{\numberline {6.2}Soporte técnico a los usuarios}{24}{}%
+\contentsline {chapter}{\numberline {7}Seguridad y calidad del software}{25}{}%
+\contentsline {section}{\numberline {7.1}Posibles vulnerabilidades}{25}{}%

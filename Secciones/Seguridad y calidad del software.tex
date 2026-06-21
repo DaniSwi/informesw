@@ -1,0 +1,49 @@
+\chapter{Seguridad y calidad del software}
+\label{Seguridad y calidad del software}
+
+\section{Posibles vulnerabilidades}
+
+Dada la naturaleza móvil, web y colaborativa de la aplicación, el sistema está expuesto a diversas amenazas operativas y cibernéticas. Se han identificado las principales vulnerabilidades específicas del negocio y se proponen sus respectivas mitigaciones técnicas
+
+\begin{enumerate}
+	\item \textbf{Robo de Cuentas y Suplantación de Identidad (Account Takeover)}
+	\begin{itemize}
+		\item Vulnerabilidad: Acceso no autorizado a cuentas de Clientes, Transportistas o Administradores mediante ataques de fuerza bruta, phishing o interceptación de credenciales. En el caso de los transportistas, la suplantación puede derivar en el robo de mercancía.
+		\item Medida de Mitigación: Autenticación Robusta: Implementación de tokens de acceso seguros (JWT - JSON Web Tokens) para mantener las sesiones activas en los dispositivos móviles de forma encriptada.
+		\begin{itemize}
+			\item Políticas de Contraseñas: Restricciones en el backend que obliguen al uso de contraseñas complejas (mínimo 8 caracteres, mayúsculas, minúsculas, números y caracteres especiales).
+			\item Verificación de Identidad: Integración con servicios de validación biométrica o validación manual rigurosa por parte del Administrador mediante la revisión de la cédula de identidad y antecedentes legales antes de activar al conductor.
+		\end{itemize}
+	\end{itemize}
+	
+	\item \textbf{Manipulación de Datos GPS y Spoofing de Ubicación }
+	\begin{itemize}
+		\item Vulnerabilidad: Modificación maliciosa de las coordenadas de geolocalización enviadas por el dispositivo del transportista. Esto podría usarse para simular rutas falsas, cobrar tarifas erróneas o encubrir desvíos durante el traslado.
+		\item Medida de Mitigación:
+		\begin{itemize}
+			\item Validación de Origen de Coordenadas: Filtros en la API que analicen la coherencia matemática de la velocidad y trayectoria del transportista entre cada actualización de los 2.67 segundos.
+			\item Cifrado de Telemetría: Todo el flujo de datos de posicionamiento global transmitido desde la app móvil hacia el servidor web se canalizará de forma obligatoria mediante el protocolo seguro HTTPS empleando TLS 1.3, evitando ataques de interceptación \textit{(Man-in-the-Middle)}.
+		\end{itemize}
+	\end{itemize}
+	
+	\item \textbf{Exposición de Datos Sensibles y de Pago}
+	\begin{itemize}
+		\item Vulnerabilidad: Interceptación o filtrado de información financiera de los usuarios, direcciones exactas de origen/destino o datos personales de registro.
+		\item Medida de Mitigación:
+		\begin{itemize}
+			\item Cifrado en Reposo y Tránsito: Uso de algoritmos de cifrado simétrico avanzado AES-256 para los datos almacenados en la base de datos (como el historial de servicios y direcciones habituales).
+			\item Tokenización de Pagos: La plataforma no almacenará números de tarjetas de crédito o débito en sus servidores locales. Se utilizará una pasarela de pago externa certificada que tokeniza las transacciones, cumpliendo de forma estricta con el estándar internacional PCI-DSS.
+		\end{itemize}
+	\end{itemize}
+	
+	\item \textbf{Manipulación y Falsificación de Evidencia Fotográfica}
+	\begin{itemize}
+		\item Vulnerabilidad: Carga de imágenes falsas, preexistentes o descargadas de internet en lugar de capturas reales del estado de la carga en los puntos de origen y descarga, invalidando el sistema de respaldo ante reclamos.
+		\item Medida de Mitigación:
+		\begin{itemize}
+			\item Control de Captura por Hardware: Restricción en la aplicación móvil para que las fotografías del estado de los objetos solo puedan tomarse directamente abriendo la cámara nativa del dispositivo a través de la app. Se bloqueará por completo la opción de seleccionar o subir imágenes provenientes de la galería local del teléfono.
+			\item Metadatos y Marcas de Agua: Almacenamiento automático en el servidor de los metadatos EXIF de cada imagen (fecha, hora y coordenadas GPS de la captura) emparejándolos con el estado del traslado para verificar la consistencia temporal y geográfica.
+		\end{itemize}
+	\end{itemize}
+		
+\end{enumerate}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  20 JUN 2026 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  20 JUN 2026 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,7 +988,10 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 18.
  (Secciones/Introducción.aux)
 (Secciones/Análisis de requerimientos.aux)
-(Secciones/Modelado de diagramas de casos de uso.aux))
+(Secciones/Modelado de diagramas de casos de uso.aux)
+(Secciones/Justificación del modelo de desarrollo de software.aux)
+(Secciones/HerramientasCase.aux) (Secciones/Soporte de software.aux)
+(Secciones/Seguridad y calidad del software.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -1121,15 +1124,16 @@ ortadas/imagenes/encabezado.png>]) (main.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
-\tf@toc=\write7
-\openout7 = `main.toc'.
 
 [1
 
 
 
-] (main.lof
+])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ [2] (main.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1137,7 +1141,7 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [2
+ [3
 
 ] (main.lot
 LaTeX Info: Redefining \sptext on input line 1.
@@ -1147,7 +1151,7 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [3
+ [4
 
 ]
 \openout2 = `Secciones/Introducción.aux'.
@@ -1172,85 +1176,143 @@ Cap\'{\i }tulo 2.
 
  (Secciones/Modelado de diagramas de casos de uso.tex
 Cap\'{\i }tulo 3.
-<Figuras/DiagramaDeCasoGeneralizado.png, id=30, 334.24875pt x 353.82187pt>
-File: Figuras/DiagramaDeCasoGeneralizado.png Graphic file (type png)
-<use Figuras/DiagramaDeCasoGeneralizado.png>
-Package pdftex.def Info: Figuras/DiagramaDeCasoGeneralizado.png  used on input 
-line 19.
-(pdftex.def)             Requested size: 236.01561pt x 249.84396pt.
-<Figuras/DiagramaTrasladoEvidencia.png, id=32, 422.32782pt x 201.00093pt>
-File: Figuras/DiagramaTrasladoEvidencia.png Graphic file (type png)
-<use Figuras/DiagramaTrasladoEvidencia.png>
-Package pdftex.def Info: Figuras/DiagramaTrasladoEvidencia.png  used on input l
-ine 26.
-(pdftex.def)             Requested size: 259.6186pt x 123.56422pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T1/ptm/b/n/12 Requerimientos aso-
- []
-
-<Figuras/DiagramaSeguimientoComunicacion.png, id=33, 263.48438pt x 353.82187pt>
-
-File: Figuras/DiagramaSeguimientoComunicacion.png Graphic file (type png)
-<use Figuras/DiagramaSeguimientoComunicacion.png>
-Package pdftex.def Info: Figuras/DiagramaSeguimientoComunicacion.png  used on i
-nput line 71.
-(pdftex.def)             Requested size: 188.8096pt x 253.5584pt.
+<Figuras/BPMN.jpeg, id=33, 1571.8725pt x 1606.0pt>
+File: Figuras/BPMN.jpeg Graphic file (type jpg)
+<use Figuras/BPMN.jpeg>
+Package pdftex.def Info: Figuras/BPMN.jpeg  used on input line 10.
+(pdftex.def)             Requested size: 472.03123pt x 482.26933pt.
 [5
 
 
 
 
- <./Figuras/DiagramaDeCasoGeneralizado.png>] [6 <./Figuras/DiagramaTrasladoEvid
-encia.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+] [6 <./Figuras/BPMN.jpeg>] [7]
+<Figuras/DiagramaDeCasoGeneralizado.png, id=43, 334.24875pt x 353.82187pt>
+File: Figuras/DiagramaDeCasoGeneralizado.png Graphic file (type png)
+<use Figuras/DiagramaDeCasoGeneralizado.png>
+Package pdftex.def Info: Figuras/DiagramaDeCasoGeneralizado.png  used on input 
+line 56.
+(pdftex.def)             Requested size: 236.01561pt x 249.84396pt.
+ [8 <./Figuras/DiagramaDeCasoGeneralizado.png>]
+<Figuras/DiagramaTrasladoEvidencia.png, id=50, 422.32782pt x 201.00093pt>
+File: Figuras/DiagramaTrasladoEvidencia.png Graphic file (type png)
+<use Figuras/DiagramaTrasladoEvidencia.png>
+Package pdftex.def Info: Figuras/DiagramaTrasladoEvidencia.png  used on input l
+ine 64.
+(pdftex.def)             Requested size: 259.6186pt x 123.56422pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\T1/ptm/b/n/12 Requerimientos aso-
+ []
+
+<Figuras/DiagramaSeguimientoComunicacion.png, id=51, 263.48438pt x 353.82187pt>
+
+File: Figuras/DiagramaSeguimientoComunicacion.png Graphic file (type png)
+<use Figuras/DiagramaSeguimientoComunicacion.png>
+Package pdftex.def Info: Figuras/DiagramaSeguimientoComunicacion.png  used on i
+nput line 109.
+(pdftex.def)             Requested size: 188.8096pt x 253.5584pt.
+[9 <./Figuras/DiagramaTrasladoEvidencia.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-[7 <./Figuras/DiagramaSeguimientoComunicacion.png>] [8] [9]
-<Figuras/DiagramaRegistroPerfiles.png, id=53, 430.60875pt x 194.22563pt>
+[10 <./Figuras/DiagramaSeguimientoComunicacion.png>] [11] [12]
+<Figuras/DiagramaRegistroPerfiles.png, id=66, 430.60875pt x 194.22563pt>
 File: Figuras/DiagramaRegistroPerfiles.png Graphic file (type png)
 <use Figuras/DiagramaRegistroPerfiles.png>
 Package pdftex.def Info: Figuras/DiagramaRegistroPerfiles.png  used on input li
-ne 158.
+ne 196.
 (pdftex.def)             Requested size: 330.42041pt x 149.03851pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-[10 <./Figuras/DiagramaRegistroPerfiles.png>] [11]
-<Figuras/DiagramaTransportistasControl.png, id=61, 609.77812pt x 263.48438pt>
+[13 <./Figuras/DiagramaRegistroPerfiles.png>] [14]
+<Figuras/DiagramaTransportistasControl.png, id=75, 609.77812pt x 263.48438pt>
 File: Figuras/DiagramaTransportistasControl.png Graphic file (type png)
 <use Figuras/DiagramaTransportistasControl.png>
 Package pdftex.def Info: Figuras/DiagramaTransportistasControl.png  used on inp
-ut line 205.
+ut line 243.
 (pdftex.def)             Requested size: 377.62642pt x 163.17769pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-[12 <./Figuras/DiagramaTransportistasControl.png>] [13]
-<Figuras/DiagramaSolicitudBusquedaFlete.png, id=69, 606.76688pt x 188.20313pt>
+[15 <./Figuras/DiagramaTransportistasControl.png>] [16]
+<Figuras/DiagramaSolicitudBusquedaFlete.png, id=83, 606.76688pt x 188.20313pt>
 File: Figuras/DiagramaSolicitudBusquedaFlete.png Graphic file (type png)
 <use Figuras/DiagramaSolicitudBusquedaFlete.png>
 Package pdftex.def Info: Figuras/DiagramaSolicitudBusquedaFlete.png  used on in
-put line 251.
+put line 289.
 (pdftex.def)             Requested size: 377.62642pt x 117.1327pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-) [14 <./Figuras/DiagramaSolicitudBusquedaFlete.png>] [15]
+) [17 <./Figuras/DiagramaSolicitudBusquedaFlete.png>] [18]
+\openout2 = `"Secciones/Justificación del modelo de desarrollo de software.aux
+"'.
 
-LaTeX Warning: Empty bibliography on input line 56.
+
+(Secciones/Justificación del modelo de desarrollo de software.tex
+Cap\'{\i }tulo 4.
+[19
+
+
+
+
+]
+Overfull \hbox (49.26558pt too wide) in paragraph at lines 38--59
+ [][] 
+ []
+
+) [20]
+\openout2 = `Secciones/HerramientasCase.aux'.
+
+ (Secciones/HerramientasCase.tex
+Cap\'{\i }tulo 5.
+[21
+
+
+
+
+]) [22]
+\openout2 = `"Secciones/Soporte de software.aux"'.
+
+ (Secciones/Soporte de software.tex
+Cap\'{\i }tulo 6.
+[23
+
+
+
+
+]) [24]
+\openout2 = `"Secciones/Seguridad y calidad del software.aux"'.
+
+ (Secciones/Seguridad y calidad del software.tex
+Cap\'{\i }tulo 7.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+4.
+
+(C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [25
+
+
+
+
+]) [26]
+
+LaTeX Warning: Empty bibliography on input line 60.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -1263,7 +1325,10 @@ LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
  (Secciones/Introducción.aux)
 (Secciones/Análisis de requerimientos.aux)
-(Secciones/Modelado de diagramas de casos de uso.aux))
+(Secciones/Modelado de diagramas de casos de uso.aux)
+(Secciones/Justificación del modelo de desarrollo de software.aux)
+(Secciones/HerramientasCase.aux) (Secciones/Soporte de software.aux)
+(Secciones/Seguridad y calidad del software.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1273,19 +1338,20 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25587 strings out of 467871
- 515680 string characters out of 5414953
- 1565067 words of memory out of 5000000
- 54145 multiletter control sequences out of 15000+600000
- 667631 words of font info for 73 fonts, out of 8000000 for 9000
+ 25730 strings out of 467871
+ 522380 string characters out of 5414953
+ 1576584 words of memory out of 5000000
+ 54254 multiletter control sequences out of 15000+600000
+ 670793 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,11n,131p,2475b,2901s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,12n,131p,2475b,2901s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmr8a.pfb>
-Output written on main.pdf (19 pages, 325996 bytes).
+imes/utmr8a.pfb><C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on main.pdf (31 pages, 607468 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

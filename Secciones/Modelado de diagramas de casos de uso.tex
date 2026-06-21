@@ -5,13 +5,48 @@ A continuación se mostrarán los diagramas de casos de uso. Para ser concretos,
 
 \section{Diagrama BPMN}
 
-[Insertar diagrama]
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{Figuras/BPMN.jpeg}
+	\caption{Diagrama BPMN del sistema}
+	\label{fig:Diagrama BPMN sistema}
+\end{figure}
 
 \noindent \textbf{Descripción de cada subproceso}
 
-\noindent \textbf{}
+\noindent \textbf{Administrador:}
 
+\begin{itemize}
+	\item Iniciar sesión con cuenta: Subproceso donde el administrador valida sus credenciales (usuario y contraseña). Se revisa en la base de datos que esto sea correcto y se da o no el acceso al panel de control.
+	\item Gestionar reportes: Subproceso enfocado en la lectura, seguimiento y resolución de incidencias, dudas o reclamos generados por los clientes o transportistas.
+	\item Gestionar usuarios: Subproceso que permite visualizar la lista entera de usuarios registrados, aplicar bloqueos/desbloqueos de cuentas y evaluar los documentos legales de los transportistas que están pendientes de validación para aceptarlos o rechazarlos.
+	\item Ver métricas: Subproceso donde el sistema recopila y renderiza estadísticas sobre el uso de la aplicación, estado de los viajes y gráficos financieros con las comisiones retenidas
+\end{itemize}
 
+\noindent \textbf{Transportista:}
+
+\begin{itemize}
+	\item Registrarse: Subproceso donde el conductor ingresa su información personal y detalla las características de su vehículo.
+	\item Enviar documentos: Subproceso obligatorio durante el registro del transportista, en el cual adjunta fotos o escaneos de su documentación para que el administrador pueda revisarlo.
+	\item Iniciar sesión con cuenta: Subproceso que valida el estado de la cuenta del transportista (aprobado o bloqueado) y le da acceso al menú principal.
+	\item Consultar historial de servicios: Subproceso en el que se consulta a la base de datos todos los fletes realizados, mostrando sus detalles, estados y comprobantes de pago para mostrarlos en pantalla.
+	\item Gestionar perfil: Subproceso donde el conductor puede actualizar sus datos de contacto, contraseña y características editables de su perfil público.
+	\item Ver solicitudes de viaje: Subproceso donde el transportista recibe alertas de fletes cercanos requeridos y decide aceptar o rechazar la oferta de viaje.
+	\item Comunicación con cliente: Subproceso habilitado solo durante un viaje en curso, que provee un chat interno para coordinar los detalles logísticos con el cliente.
+	
+\end{itemize}
+
+\noindent \textbf{Cliente:}
+
+\begin{itemize}
+	\item Registrarse: Subproceso donde el cliente crea su perfil ingresando sus datos básicos de contacto
+	\item Iniciar sesión con cuenta: Subproceso que valida las credenciales del cliente y le da acceso al menú principal.
+	\item Gestionar perfil: Subproceso donde el usuario puede modificar sus datos de contacto o actualizar su información de acceso.
+	\item Consultar historial de servicios: Subproceso que permite revisar el registro de sus fletes solicitados, incluyendo acceso a recibos, detalles del transportista que hizo el viaje y fotografías de evidencia.
+	\item Crear solicitud de flete: Subproceso donde el cliente ingresa los parámetros de su necesidad (origen, destino, dimensiones de la carga, etc.). Luego, el sistema busca conductores cercanos y el cliente selecciona una opción para generar el contrato de viaje.
+	\item Seguimiento y comunicación: Subproceso en tiempo real que renderiza la ubicación GPS del vehículo en un mapa, gestiona el envío automático de notificaciones por cambios de estado y habilita el chat con el conductor.
+	\item Realizar pago: Subproceso donde el cliente abona el servicio (mediante tarjeta o efectivo). El sistema registra la transacción, descuenta la comisión correspondiente y habilita el formulario para calificar al transportista.
+\end{itemize}
 
 
 \section{Diagrama de caso de uso general}
@@ -22,15 +57,16 @@ A continuación se mostrarán los diagramas de casos de uso. Para ser concretos,
 	\caption{Diagrama de caso generalizado}
 	\label{fig:Diagrama de caso generalizado}
 \end{figure}
+\newpage
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.55\linewidth]{Figuras/DiagramaTrasladoEvidencia.png}
 	\caption{Diagrama de caso de uso: Traslado y evidencia}
 	\label{fig:Diagrama traslado y evidencia}
 \end{figure}
 
-\begin{table}
+\begin{table}[H]
 	\centering 
 	\caption{Tabla explicativa del caso de traslado y evidencia}
 	\label{table: Tabla caso traslado y evidencia}
