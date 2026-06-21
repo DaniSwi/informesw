@@ -10,3 +10,4 @@
 \contentsline {section}{\numberline {2.4}Requerimientos no funcionales}{3}{}%
 \contentsline {chapter}{\numberline {3}Modelado de diagramas de casos de uso}{5}{}%
 \contentsline {section}{\numberline {3.1}Diagrama BPMN}{5}{}%
+\contentsline {section}{\numberline {3.2}Diagrama de caso de uso general}{5}{}%

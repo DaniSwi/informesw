@@ -5,11 +5,292 @@ A continuación se mostrarán los diagramas de casos de uso. Para ser concretos,
 
 \section{Diagrama BPMN}
 
+[Insertar diagrama]
+
+\noindent \textbf{Descripción de cada subproceso}
+
+\noindent \textbf{}
+
+
+
+
+\section{Diagrama de caso de uso general}
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.5\linewidth]{Figuras/DiagramaDeCasoGeneralizado.png}
 	\caption{Diagrama de caso generalizado}
 	\label{fig:Diagrama de caso generalizado}
 \end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.55\linewidth]{Figuras/DiagramaTrasladoEvidencia.png}
+	\caption{Diagrama de caso de uso: Traslado y evidencia}
+	\label{fig:Diagrama traslado y evidencia}
+\end{figure}
+
+\begin{table}
+	\centering 
+	\caption{Tabla explicativa del caso de traslado y evidencia}
+	\label{table: Tabla caso traslado y evidencia}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|p{4cm}|p{11cm}|}
+		\hline
+		\centering\textbf{Elemento} & \centering\textbf{Descripción}\tabularnewline
+		\hline
+		\textbf{Nombre} & Ejecución del traslado y evidencia \\
+		\hline 
+		\textbf{Requerimientos asociados} & RF6, RF7, RF8 \\
+		\hline
+		\textbf{Actor principal} & Transportista \\
+		\hline
+		\textbf{Actores secundarios} & Sistema \\
+		\hline
+		\textbf{Precondiciones} & El servicio debe estar contratado y el transportista debe haber aceptado o tener asignado el traslado. La aplicación debe permitir el uso de cámara o carga de fotografías. \\
+		\hline
+		\textbf{Flujo principal} & 
+		1. El transportista llega al punto de origen. \newline
+		2. Antes de iniciar el traslado, el sistema solicita registrar fotografías de la carga. \newline
+		3. El transportista toma y sube fotografías del estado inicial de la carga. \newline
+		4. El sistema almacena las fotografías y las asocia al servicio correspondiente. \newline
+		5. El transportista inicia el traslado. \newline
+		6. Al llegar al destino, el sistema solicita un nuevo registro fotográfico. \newline
+		7. El transportista toma y sube fotografías del estado final de la carga. \newline
+		8. El sistema guarda la evidencia final en el historial del servicio. \newline
+		9. El transportista marca la entrega como finalizada. \\
+		\hline
+		\textbf{Postcondiciones} & 
+		- El servicio queda respaldado con evidencia fotográfica de origen y destino. \newline
+		- Las fotografías quedan almacenadas en el historial del viaje y pueden 
+		ser consultadas ante reclamos, dudas o disputas por daños \\
+		\hline
+	\end{tabular} 
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{Figuras/DiagramaSeguimientoComunicacion.png}
+	\caption{Diagrama de caso de uso: Seguimiento y comunicación}
+	\label{fig:Diagrama seguimiento y comunicación}
+\end{figure}
+
+\begin{table}
+	\centering 
+	\caption{Tabla explicativa del caso de seguimiento y comunicación}
+	\label{table: Tabla caso seguimiento y comunicación}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|p{4cm}|p{11cm}|}
+		\hline
+		\centering\textbf{Elemento} & \centering\textbf{Descripción}\tabularnewline
+		\hline
+		\textbf{Nombre} & Seguimiento y comunicación \\
+		\hline 
+		\textbf{Requerimientos asociados} & RF9, RF10, RF11 \\
+		\hline
+		\textbf{Actor principal} & Cliente \\
+		\hline
+		\textbf{Actores secundarios} & Transportista, Sistema \\
+		\hline
+		\textbf{Precondiciones} & El servicio debe estar contratado y activo. El transportista debe permitir el uso de ubicación GPS en su dispositivo móvil. El cliente debe tener acceso al detalle del viaje y un número telefónico registrado para recibir notificaciones SMS. \\
+		\hline
+		\textbf{Flujo principal} & 
+		1. El transportista inicia el viaje desde la aplicación. 
+		2. El sistema obtiene periódicamente la ubicación GPS del transportista. 
+		3. El cliente ingresa al seguimiento del servicio y visualiza la ubicación en un mapa. 
+		4. Durante el servicio, cliente y transportista pueden comunicarse mediante el chat interno. 
+		5. Cuando ocurre un cambio relevante de estado, como inicio del viaje, llegada al destino o finalización, el sistema genera una notificación automática. 
+		6. El sistema envía la alerta al cliente mediante SMS. \\
+		\hline
+		\textbf{Postcondiciones} & 
+		- El cliente puede conocer la ubicación aproximada de su carga durante el traslado. \newline
+		- La comunicación entre cliente y transportista queda centralizada en la plataforma. \newline
+		- El cliente recibe avisos relevantes sobre el avance del servicio. \\
+		\hline
+	\end{tabular} 
+\end{table}
+
+
+
+
+
+
+\begin{table}
+	\centering 
+	\caption{Tabla explicativa del caso de pagos y comisiones}
+	\label{table: Tabla caso pagos y comisiones}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|p{4cm}|p{11cm}|}
+		\hline
+		\centering\textbf{Elemento} & \centering\textbf{Descripción}\tabularnewline
+		\hline
+		\textbf{Nombre} & Pagos y comisiones \\
+		\hline 
+		\textbf{Requerimientos asociados} & RF5, RF12, RF13 \\
+		\hline
+		\textbf{Actor principal} & Transportista, Sistema \\
+		\hline
+		\textbf{Actores secundarios} & Transportista, Sistema \\
+		\hline
+		\textbf{Precondiciones} & El transportista debe tener una cuenta activa y estar habilitado para ofrecer servicios. El servicio debe estar contratado o finalizado, según la regla de pago definida por la plataforma. La tarifa del traslado debe poder calcularse a partir de la distancia y las características del servicio. La plataforma debe tener definida una comisión porcentual. \\
+		\hline
+		\textbf{Flujo principal} & 
+		1. El transportista configura su tarifa flexible según distancia y características del traslado. \newline
+		2. El sistema registra la configuración tarifaria del transportista. \newline
+		3. El cliente accede al pago del servicio.\newline
+		4. El sistema calcula el monto del traslado usando la tarifa configurada por el transportista.\newline
+		5. El sistema muestra el monto total a pagar al cliente.\newline
+		6. El cliente selecciona el método de pago disponible: tarjeta o efectivo.\newline
+		7. El cliente realiza el pago.\newline
+		8. El sistema registra el pago asociado al servicio.\newline
+		9. El sistema calcula la comisión porcentual de la plataforma. \newline
+		10. El sistema descuenta o registra la comisión según el método de pago utilizado. \newline
+		11. El sistema actualiza el estado financiero del viaje. \\
+		\hline
+		\textbf{Postcondiciones} & 
+		La tarifa del traslado queda calculada según la configuración del transportista. El pago queda registrado en el sistema. La comisión de la plataforma queda calculada y asociada al servicio. El viaje queda disponible para historial, recibos y métricas financieras administrativas \\
+		\hline
+	\end{tabular} 
+\end{table} 
+
+\newpage
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figuras/DiagramaRegistroPerfiles.png}
+	\caption{Diagrama de caso de uso: Registro y perfiles}
+	\label{fig:Diagrama registro y perfiles }
+\end{figure}
+
+\begin{table}
+	\centering 
+	\caption{Tabla explicativa del caso de registro y perfiles}
+	\label{table: Tabla caso registro y perfiles}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|p{4cm}|p{11cm}|}
+		\hline
+		\centering\textbf{Elemento} & \centering\textbf{Descripción}\tabularnewline
+		\hline
+		\textbf{Nombre} & Registro y perfiles \\
+		\hline 
+		\textbf{Requerimientos asociados} & RF1, RF2 (parcialmente), RF16 \\
+		\hline
+		\textbf{Actor principal} & Cliente, Transportista, Administrador \\
+		\hline
+		\textbf{Actores secundarios} & Sistema \\
+		\hline
+		\textbf{Precondiciones} & El usuario debe tener acceso a la plataforma (aplicación móvil o interfaz web (Administrador)). En el caso de querer consultar el historial y/o editar los datos, el usuario debe haber iniciado sesión en el sistema. \\
+		\hline
+		\textbf{Flujo principal} & 
+		1. El usuario selecciona la opción de registro según el rol que le corresponda (Cliente o Transportista). \newline 
+		2. El usuario ingresa los datos específicos que se requieran para su perfil. \newline 
+		3. En el caso del Transportista, el sistema lo obliga a adjuntar su documentación legal (licencia, vehículo, etc.) antes de continuar. \newline 
+		4. El sistema valida la consistencia de los datos, crea la cuenta y permite al nuevo usuario ingresar a la plataforma. \newline 
+		5. El usuario ingresa a la sección de configuración para gestionar o actualizar los datos de su perfil. \newline 
+		6. El usuario (Cliente o Transportista) revisa su historial de servicios desde el menú. \newline 
+		7. El sistema busca y encuentra el registro de todos los servicios asociados al usuario. \newline 
+		8. El sistema muestra en pantalla el listado con el detalle, recibos de pago y los estados históricos de cada servicio. \\
+		\hline
+		\textbf{Postcondiciones} & 
+		- El nuevo usuario queda registrado y clasificado según su rol en la plataforma. \newline 
+		- Los documentos del transportista quedan almacenados y disponibles para que el administrador los revise. \newline 
+		- Los datos modificados en el perfil se actualizan en la base de datos. \newline 
+		- El historial de servicios queda disponible para consultas por parte de los clientes y transportistas. \\
+		\hline
+	\end{tabular} 
+\end{table}
+
+\newpage
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Figuras/DiagramaTransportistasControl.png}
+	\caption{Diagrama de caso de uso: Validación transportistas y control administrativo}
+	\label{fig:Diagrama transportistas y control administrativo }
+\end{figure}
+
+\begin{table}
+	\centering 
+	\caption{Tabla explicativa del caso de validación de transportistas y control administrativo}
+	\label{table: Tabla caso validación de transportistas y control administrativo}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|p{4cm}|p{11cm}|}
+		\hline
+		\centering\textbf{Elemento} & \centering\textbf{Descripción}\tabularnewline
+		\hline
+		\textbf{Nombre} & Validación de transportistas y control administrativo \\
+		\hline 
+		\textbf{Requerimientos asociados} & RF2 (parcialmente), RF15 \\
+		\hline
+		\textbf{Actor principal} & Administrador \\
+		\hline
+		\textbf{Actores secundarios} & Sistema \\
+		\hline
+		\textbf{Precondiciones} & El administrador debe estar logueado en la plataforma web. Para la revisión de documentos, deben existir cuentas de transportistas pendientes de aprobación. \\
+		\hline
+		\textbf{Flujo principal} & 
+		1. El administrador accede al panel de control y selecciona una de las tres áreas de gestión disponibles: Reportes, Usuarios o Métricas. \newline 
+		2. Si elige gestionar reportes, el sistema muestra las incidencias o dudas enviadas por los usuarios para resolverlas o gestionarlas. \newline 
+		3. Si elige ver métricas, el sistema muestra los gráficos financieros, las comisiones retenidas y las estadísticas de uso del negocio. \newline 
+		4. Si elige gestionar usuarios, el sistema muestra una lista con todos los clientes y transportistas. \newline 
+		5. Desde la gestión de usuarios, el administrador puede seleccionar un perfil para bloquear o desbloquear un usuario de la plataforma según corresponda. \newline 
+		6. Desde la misma lista, el administrador puede seleccionar un transportista que se encuentre pendiente para la revisión de documentos. \newline 
+		7. El sistema despliega los archivos adjuntos por el transportista para su validación. \newline 
+		8. El administrador evalúa la documentación y decide si acepta o no al transportista. \\
+		\hline
+		\textbf{Postcondiciones} & 
+		- Las cuentas de los transportistas cambian su estado (aprobado, rechazado o bloqueado). \newline 
+		- Los usuarios bloqueados pierden el acceso a la aplicación de forma inmediata. \newline 	
+		- Los reportes gestionados actualizan su estado de resolución y las métricas se mantienen al día. \\
+		\hline
+	\end{tabular} 
+\end{table}
+
+\newpage
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Figuras/DiagramaSolicitudBusquedaFlete.png}
+	\caption{Diagrama de caso de uso: Solicitud y búsqueda de flete}
+	\label{fig:Diagrama solicitud y búsqueda de flete }
+\end{figure}
+
+\begin{table}
+	\centering 
+	\caption{Tabla explicativa del caso de solicitud y búsqueda de flete}
+	\label{table: Tabla caso solicitud y búsqueda de flete}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|p{4cm}|p{11cm}|}
+		\hline
+		\centering\textbf{Elemento} & \centering\textbf{Descripción}\tabularnewline
+		\hline
+		\textbf{Nombre} & Solicitud y búsqueda de flete \\
+		\hline 
+		\textbf{Requerimientos asociados} & RF3, RF4, RF14 \\
+		\hline
+		\textbf{Actor principal} & Cliente \\
+		\hline
+		\textbf{Actores secundarios} & Sistema \\
+		\hline
+		\textbf{Precondiciones} & El cliente debe estar autenticado en la aplicación móvil. Para calificar al transportista, el servicio de traslado debe estar finalizado. \\
+		\hline
+		\textbf{Flujo principal} & 
+		1. El cliente inicia el proceso seleccionando la opción para crear una nueva solicitud de traslado. \newline 
+		2. El cliente ingresa el origen, destino, tipo de carga, dimensiones, peso aproximado, fecha y hora de servicio. \newline 
+		3. El sistema procesa los datos y activa el motor de búsqueda para localizar transportistas disponibles y cercanos. \newline 
+		4. El sistema muestra al cliente un listado de los transportistas sugeridos, detallando su calificación y tipo de vehículo. \newline 
+		5. El cliente puede seleccionar opcionalmente un transportista de la lista para revisar su perfil completo y comentarios de otros clientes. \newline 
+		6. El cliente selecciona al transportista que prefiere y confirma el envío de la solicitud de flete. \newline 
+		7. Tras haberse completado el traslado, el sistema habilita la opción de evaluación para el cliente. \newline 
+		8. El cliente clasifica el desempeño del transportista mediante un sistema de estrellas y puede redactar una reseña escrita en caso de así desearlo. \\
+		\hline
+		\textbf{Postcondiciones} & 
+		- La solicitud de traslado queda registrada en el sistema y asociada al transportista seleccionado para que éste pueda iniciar el viaje. \newline
+		- Se guardan las calificaciones y comentarios del cliente, actualizando la evaluación general del transportista en la plataforma. \\
+		\hline
+	\end{tabular} 
+\end{table}
+
+
 
 

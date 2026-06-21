@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  18 JUN 2026 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  20 JUN 2026 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1176,14 +1176,79 @@ Cap\'{\i }tulo 3.
 File: Figuras/DiagramaDeCasoGeneralizado.png Graphic file (type png)
 <use Figuras/DiagramaDeCasoGeneralizado.png>
 Package pdftex.def Info: Figuras/DiagramaDeCasoGeneralizado.png  used on input 
-line 10.
+line 19.
 (pdftex.def)             Requested size: 236.01561pt x 249.84396pt.
-) [5
+<Figuras/DiagramaTrasladoEvidencia.png, id=32, 422.32782pt x 201.00093pt>
+File: Figuras/DiagramaTrasladoEvidencia.png Graphic file (type png)
+<use Figuras/DiagramaTrasladoEvidencia.png>
+Package pdftex.def Info: Figuras/DiagramaTrasladoEvidencia.png  used on input l
+ine 26.
+(pdftex.def)             Requested size: 259.6186pt x 123.56422pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/ptm/b/n/12 Requerimientos aso-
+ []
+
+<Figuras/DiagramaSeguimientoComunicacion.png, id=33, 263.48438pt x 353.82187pt>
+
+File: Figuras/DiagramaSeguimientoComunicacion.png Graphic file (type png)
+<use Figuras/DiagramaSeguimientoComunicacion.png>
+Package pdftex.def Info: Figuras/DiagramaSeguimientoComunicacion.png  used on i
+nput line 71.
+(pdftex.def)             Requested size: 188.8096pt x 253.5584pt.
+[5
 
 
 
 
- <./Figuras/DiagramaDeCasoGeneralizado.png>]
+ <./Figuras/DiagramaDeCasoGeneralizado.png>] [6 <./Figuras/DiagramaTrasladoEvid
+encia.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T1/ptm/b/n/12 Requerimientos aso-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T1/ptm/b/n/12 Requerimientos aso-
+ []
+
+[7 <./Figuras/DiagramaSeguimientoComunicacion.png>] [8] [9]
+<Figuras/DiagramaRegistroPerfiles.png, id=53, 430.60875pt x 194.22563pt>
+File: Figuras/DiagramaRegistroPerfiles.png Graphic file (type png)
+<use Figuras/DiagramaRegistroPerfiles.png>
+Package pdftex.def Info: Figuras/DiagramaRegistroPerfiles.png  used on input li
+ne 158.
+(pdftex.def)             Requested size: 330.42041pt x 149.03851pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|\T1/ptm/b/n/12 Requerimientos aso-
+ []
+
+[10 <./Figuras/DiagramaRegistroPerfiles.png>] [11]
+<Figuras/DiagramaTransportistasControl.png, id=61, 609.77812pt x 263.48438pt>
+File: Figuras/DiagramaTransportistasControl.png Graphic file (type png)
+<use Figuras/DiagramaTransportistasControl.png>
+Package pdftex.def Info: Figuras/DiagramaTransportistasControl.png  used on inp
+ut line 205.
+(pdftex.def)             Requested size: 377.62642pt x 163.17769pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/ptm/b/n/12 Requerimientos aso-
+ []
+
+[12 <./Figuras/DiagramaTransportistasControl.png>] [13]
+<Figuras/DiagramaSolicitudBusquedaFlete.png, id=69, 606.76688pt x 188.20313pt>
+File: Figuras/DiagramaSolicitudBusquedaFlete.png Graphic file (type png)
+<use Figuras/DiagramaSolicitudBusquedaFlete.png>
+Package pdftex.def Info: Figuras/DiagramaSolicitudBusquedaFlete.png  used on in
+put line 251.
+(pdftex.def)             Requested size: 377.62642pt x 117.1327pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+[]|\T1/ptm/b/n/12 Requerimientos aso-
+ []
+
+) [14 <./Figuras/DiagramaSolicitudBusquedaFlete.png>] [15]
 
 LaTeX Warning: Empty bibliography on input line 56.
 
@@ -1208,19 +1273,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25534 strings out of 467871
- 513382 string characters out of 5414953
- 1562419 words of memory out of 5000000
- 54092 multiletter control sequences out of 15000+600000
+ 25587 strings out of 467871
+ 515680 string characters out of 5414953
+ 1565067 words of memory out of 5000000
+ 54145 multiletter control sequences out of 15000+600000
  667631 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,11n,131p,2475b,2901s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb>
-Output written on main.pdf (9 pages, 149699 bytes).
+Output written on main.pdf (19 pages, 325996 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
