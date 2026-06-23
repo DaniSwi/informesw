@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  21 JUN 2026 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.6)  22 JUN 2026 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,7 +1199,7 @@ File: Figuras/DiagramaTrasladoEvidencia.png Graphic file (type png)
 <use Figuras/DiagramaTrasladoEvidencia.png>
 Package pdftex.def Info: Figuras/DiagramaTrasladoEvidencia.png  used on input l
 ine 64.
-(pdftex.def)             Requested size: 259.6186pt x 123.56422pt.
+(pdftex.def)             Requested size: 330.42041pt x 157.2616pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\T1/ptm/b/n/12 Requerimientos aso-
@@ -1217,55 +1217,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
+[10 <./Figuras/DiagramaSeguimientoComunicacion.png>] [11]
+<Figuras/DiagramaTarifaPagoComisiones.png, id=63, 732.7375pt x 330.23375pt>
+File: Figuras/DiagramaTarifaPagoComisiones.png Graphic file (type png)
+<use Figuras/DiagramaTarifaPagoComisiones.png>
+Package pdftex.def Info: Figuras/DiagramaTarifaPagoComisiones.png  used on inpu
+t line 153.
+(pdftex.def)             Requested size: 472.03123pt x 212.73961pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-[10 <./Figuras/DiagramaSeguimientoComunicacion.png>] [11] [12]
-<Figuras/DiagramaRegistroPerfiles.png, id=66, 430.60875pt x 194.22563pt>
+[12 <./Figuras/DiagramaTarifaPagoComisiones.png (PNG copy)>] [13]
+<Figuras/DiagramaRegistroPerfiles.png, id=70, 430.60875pt x 194.22563pt>
 File: Figuras/DiagramaRegistroPerfiles.png Graphic file (type png)
 <use Figuras/DiagramaRegistroPerfiles.png>
 Package pdftex.def Info: Figuras/DiagramaRegistroPerfiles.png  used on input li
-ne 196.
+ne 202.
 (pdftex.def)             Requested size: 330.42041pt x 149.03851pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-[13 <./Figuras/DiagramaRegistroPerfiles.png>] [14]
-<Figuras/DiagramaTransportistasControl.png, id=75, 609.77812pt x 263.48438pt>
+[14 <./Figuras/DiagramaRegistroPerfiles.png>] [15]
+<Figuras/DiagramaTransportistasControl.png, id=79, 609.77812pt x 263.48438pt>
 File: Figuras/DiagramaTransportistasControl.png Graphic file (type png)
 <use Figuras/DiagramaTransportistasControl.png>
 Package pdftex.def Info: Figuras/DiagramaTransportistasControl.png  used on inp
-ut line 243.
+ut line 249.
 (pdftex.def)             Requested size: 377.62642pt x 163.17769pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-[15 <./Figuras/DiagramaTransportistasControl.png>] [16]
-<Figuras/DiagramaSolicitudBusquedaFlete.png, id=83, 606.76688pt x 188.20313pt>
+[16 <./Figuras/DiagramaTransportistasControl.png>] [17]
+<Figuras/DiagramaSolicitudBusquedaFlete.png, id=87, 606.76688pt x 188.20313pt>
 File: Figuras/DiagramaSolicitudBusquedaFlete.png Graphic file (type png)
 <use Figuras/DiagramaSolicitudBusquedaFlete.png>
 Package pdftex.def Info: Figuras/DiagramaSolicitudBusquedaFlete.png  used on in
-put line 289.
+put line 295.
 (pdftex.def)             Requested size: 377.62642pt x 117.1327pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []|\T1/ptm/b/n/12 Requerimientos aso-
  []
 
-) [17 <./Figuras/DiagramaSolicitudBusquedaFlete.png>] [18]
+) [18 <./Figuras/DiagramaSolicitudBusquedaFlete.png>] [19]
 \openout2 = `"Secciones/Justificación del modelo de desarrollo de software.aux
 "'.
 
 
 (Secciones/Justificación del modelo de desarrollo de software.tex
 Cap\'{\i }tulo 4.
-[19
+[20
 
 
 
@@ -1275,27 +1282,27 @@ Overfull \hbox (49.26558pt too wide) in paragraph at lines 38--59
  [][] 
  []
 
-) [20]
+) [21]
 \openout2 = `Secciones/HerramientasCase.aux'.
 
  (Secciones/HerramientasCase.tex
 Cap\'{\i }tulo 5.
-[21
+[22
 
 
 
 
-]) [22]
+] [23]) [24]
 \openout2 = `"Secciones/Soporte de software.aux"'.
 
  (Secciones/Soporte de software.tex
 Cap\'{\i }tulo 6.
-[23
+[25
 
 
 
 
-] [24]) [25] [26]
+] [26]) [27] [28]
 \openout2 = `"Secciones/Seguridad y calidad del software.aux"'.
 
  (Secciones/Seguridad y calidad del software.tex
@@ -1305,12 +1312,12 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 
 (C:\Users\PC RST GALAX\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [27
+) [29
 
 
 
 
-] [28] [29]) [30]
+] [30] [31] [32]) [33]
 
 LaTeX Warning: Empty bibliography on input line 60.
 
@@ -1338,10 +1345,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25730 strings out of 467871
- 522380 string characters out of 5414953
- 1577594 words of memory out of 5000000
- 54254 multiletter control sequences out of 15000+600000
+ 25748 strings out of 467871
+ 522876 string characters out of 5414953
+ 1577652 words of memory out of 5000000
+ 54272 multiletter control sequences out of 15000+600000
  670793 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,12n,131p,2475b,2901s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1349,9 +1356,9 @@ Here is how much of TeX's memory you used:
 mb8a.pfb><C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/PC RST GALAX/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on main.pdf (35 pages, 618630 bytes).
+Output written on main.pdf (38 pages, 666325 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

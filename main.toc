@@ -11,20 +11,23 @@
 \contentsline {chapter}{\numberline {3}Modelado de diagramas de casos de uso}{5}{}%
 \contentsline {section}{\numberline {3.1}Diagrama BPMN}{6}{}%
 \contentsline {section}{\numberline {3.2}Diagrama de caso de uso general}{8}{}%
-\contentsline {chapter}{\numberline {4}Justificación del modelo de desarrollo de software}{19}{}%
-\contentsline {section}{\numberline {4.1}Modelo de desarrollo seleccionado}{19}{}%
-\contentsline {section}{\numberline {4.2}Justificación de la elección}{19}{}%
-\contentsline {section}{\numberline {4.3}Aplicación de Scrum al proyecto}{19}{}%
-\contentsline {section}{\numberline {4.4}Cronograma estimado del proyecto}{20}{}%
-\contentsline {chapter}{\numberline {5}Herramientas CASE a utilizar}{21}{}%
-\contentsline {section}{\numberline {5.1}Herramientas CASE en el contexto del proyecto}{21}{}%
-\contentsline {section}{\numberline {5.2}Herramientas Upper CASE}{21}{}%
-\contentsline {section}{\numberline {5.3}Herramientas Lower CASE}{22}{}%
-\contentsline {section}{\numberline {5.4}Herramientas I-CASE}{22}{}%
-\contentsline {chapter}{\numberline {6}Soporte de software}{23}{}%
-\contentsline {section}{\numberline {6.1}Estrategia de mantenimiento de software}{23}{}%
-\contentsline {section}{\numberline {6.2}Soporte técnico a los usuarios}{24}{}%
-\contentsline {section}{\numberline {6.3}Escalabilidad y Adaptabilidad del Sistema}{25}{}%
-\contentsline {chapter}{\numberline {7}Seguridad y calidad del software}{27}{}%
-\contentsline {section}{\numberline {7.1}Posibles vulnerabilidades}{27}{}%
-\contentsline {section}{\numberline {7.2}Pruebas de calidad}{28}{}%
+\contentsline {chapter}{\numberline {4}Justificación del modelo de desarrollo de software}{20}{}%
+\contentsline {section}{\numberline {4.1}Modelo de desarrollo seleccionado}{20}{}%
+\contentsline {section}{\numberline {4.2}Justificación de la elección}{20}{}%
+\contentsline {section}{\numberline {4.3}Aplicación de Scrum al proyecto}{20}{}%
+\contentsline {section}{\numberline {4.4}Cronograma estimado del proyecto}{21}{}%
+\contentsline {chapter}{\numberline {5}Herramientas CASE a utilizar}{22}{}%
+\contentsline {section}{\numberline {5.1}Herramientas CASE en el contexto del proyecto}{22}{}%
+\contentsline {section}{\numberline {5.2}Herramientas Upper CASE}{22}{}%
+\contentsline {section}{\numberline {5.3}Herramientas Lower CASE}{23}{}%
+\contentsline {section}{\numberline {5.4}Herramientas I-CASE}{23}{}%
+\contentsline {chapter}{\numberline {6}Soporte de software}{25}{}%
+\contentsline {section}{\numberline {6.1}Estrategia de mantenimiento de software}{25}{}%
+\contentsline {section}{\numberline {6.2}Soporte técnico a los usuarios}{26}{}%
+\contentsline {section}{\numberline {6.3}Escalabilidad y Adaptabilidad del Sistema}{27}{}%
+\contentsline {chapter}{\numberline {7}Seguridad y calidad del software}{29}{}%
+\contentsline {section}{\numberline {7.1}Posibles vulnerabilidades}{29}{}%
+\contentsline {section}{\numberline {7.2}Pruebas de calidad}{30}{}%
+\contentsline {section}{\numberline {7.3}Prácticas de codificación segura y estándares de calidad }{32}{}%
+\contentsline {subsection}{\numberline {7.3.1}Prácticas de codificación segura}{32}{}%
+\contentsline {subsection}{\numberline {7.3.2}Estándares de Calidad del Producto (ISO/IEC 25010) }{32}{}%

@@ -107,3 +107,28 @@ Para asegurar que los requerimientos funcionales y de calidad se cumplan sin int
 		\item \textbf{Criterio de Aceptación:} El sistema debe procesar la geolocalización en un máximo de 2,67 segundos bajo la carga de 1.000 usuarios concurrentes, permitir la contratación del servicio en no más de 4 pasos intuitivos, y rechazar de forma estricta el 100\% de las solicitudes no autenticadas mediante códigos de error HTTP 401 o 403.
 	\end{itemize}
 \end{enumerate}
+
+\section{Prácticas de codificación segura y estándares de calidad }
+
+\subsection{Prácticas de codificación segura} 
+
+El desarrollo del software integra el estándar \textbf{OWASP Top 10} para establecer una línea base de seguridad desde la arquitectura. La estrategia de protección se fundamenta en los siguientes pilares de programación defensiva: 
+
+\begin{itemize}
+	\item \textbf{Validación y Sanitización de Entradas (Prevención de Inyecciones):} Se establece como política mandatoria que todo dato proveniente de actores externos sea interceptado y normalizado antes de interactuar con las capas lógicas. Esta capa de abstracción neutraliza intentos de inyección y previene la ejecución de scripts no autorizados, garantizando que el backend solo procese datos estructurados y seguros.
+	\item \textbf{Control de Acceso Basado en Roles (RBAC):} La gestión de identidades utiliza un modelo centralizado de autorización donde cada solicitud es auditada por un componente perimetral. Esto asegura que, independientemente del nivel de acceso, el sistema verifique los privilegios del emisor antes de liberar funciones administrativas, tarifas o documentos sensibles, garantizando el principio de "menor privilegio".
+	\item \textbf{Políticas de Gestión de Archivos y Evidencias:} Dado que la plataforma gestiona documentación legal y registros fotográficos, el subsistema de carga opera bajo restricciones preconfiguradas: validación estricta de formatos (MIME-Type), límites de transferencia para mitigar ataques de denegación de servicio (DoS) y el renombrado aleatorio de archivos para ofuscar la topología interna del servidor, protegiendo así la integridad de la infraestructura.
+\end{itemize}
+
+\subsection{Estándares de Calidad del Producto (ISO/IEC 25010) }
+
+Para la evaluación técnica y aseguramiento de la excelencia del producto, se adopta el estándar internacional \textbf{ISO/IEC 25010.} Este marco define los atributos clave necesarios para que la plataforma sea competitiva y robusta:
+
+\begin{enumerate}
+	\item \textbf{Adecuación Funcional:} Esta característica asegura que el sistema cumpla con la totalidad de los requerimientos especificados. Se garantiza la precisión del motor de emparejamiento geográfico y la exactitud en el procesamiento de transacciones financieras, cumpliendo fielmente con las reglas de negocio, lo que genera confianza tanto en Clientes como en Transportistas.
+	\item \textbf{Eficiencia de Desempeño:} La arquitectura está dimensionada para responder con fluidez ante la concurrencia masiva. Se ha definido un umbral de \textbf{2,67 segundos} para el procesamiento de datos telemétricos y la actualización cartográfica, asegurando que el seguimiento en tiempo real sea inmediato y sin degradar la capacidad de cómputo del servidor.
+	\item \textbf{Usabilidad (Operabilidad):} El diseño de la interfaz prioriza la experiencia del usuario (UX) mediante principios de consistencia y simplicidad. Se garantiza que un usuario pueda completar la contratación de un flete en un máximo de cuatro pasos, implementando una gestión de excepciones que traduce errores técnicos en mensajes informativos, reduciendo así la carga cognitiva del usuario.
+	\item \textbf{Fiabilidad (Tolerancia a Fallos):} Ante la inestabilidad de las redes móviles en ruta, el software implementa mecanismos de resiliencia. El sistema preserva los datos de trazabilidad localmente durante la desconexión y sincroniza automáticamente el historial completo al restaurarse el enlace, protegiendo la integridad referencial y evitando la pérdida de información del viaje.
+	\item \textbf{Mantenibilidad:} Se impone una arquitectura de \textbf{estricta modularidad} para asegurar la longevidad del sistema. Al separar la lógica de operación de las capas de presentación visual, se facilita la corrección de errores y futuras actualizaciones sin introducir regresiones. Esta estructura no solo reduce la deuda técnica, sino que permite que la plataforma sea altamente escalable ante nuevas demandas del mercado.
+	
+\end{enumerate}
